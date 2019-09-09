@@ -1,0 +1,8 @@
+1. Tidak pernah
+2. Akan terbuka apa yang ada di url yaitu google.co.id
+   Kegunaan meta dokumen adalah sebagai identitas dari halaman web
+3.	thead:mengelompokkan isi header dalam sebuah tabel
+	tbody:mengelompokkan isi header dalam sebuah tabel
+	tr:tag untuk membuat baris dalam sebuah tabel
+	th:tag untuk membuat sebuah sel header tabel
+	td:tag untuk membuat sel dalam sebuah tabel
