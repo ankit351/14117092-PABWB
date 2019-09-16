@@ -29,27 +29,37 @@ body{
     letter-spacing: 3px;
     font-weight: 100;
   }
-  ul{
+
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  .box li{
-    display: inline-block;
-    margin: 10px;
-    list-style: none;
-  }
-  .box li a{
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    transition: all ease-in-out 250ms;
-  }
-  .box li a:hover{
-    background-color: #555;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
     color: whitesmoke;
-  }
-  .footer {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+}
+.active {
+    background-color: #555;
+}
+
+.footer {
     text-align: center;
     color: whitesmoke;
-    margin-top: 40px;
+    margin-top: 20px;
   }
