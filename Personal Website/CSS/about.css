@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("images/bghomepage.jpg") no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+}
+.active {
+    background-color: #555;
+}
+
+.footer {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+  }

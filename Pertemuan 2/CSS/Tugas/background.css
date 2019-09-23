@@ -1,0 +1,8 @@
+body{
+    background-image: url('../Tugas/images/4k3.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}

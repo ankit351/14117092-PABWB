@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('images/bghomepage.jpg') no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    width: 55%;
+    height: 55%;
+  }
+  .box h5{
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: whitesmoke;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+.active {
+    background-color: #555;    
+}
+
+.footer {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0px;
+  }

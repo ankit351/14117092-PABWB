@@ -1,0 +1,13 @@
+.margin{
+    margin-left: 100px;
+}
+ 
+.kotak{
+	width: 1100px;
+	height: 200px;
+	margin: 30px;
+}
+ 
+.gradient {
+    background: linear-gradient(black, rgb(0, 102, 255));
+}

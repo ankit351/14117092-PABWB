@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("images/bghomepage.jpg") no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+}
+.active {
+    background-color: #555;
+}
+
+.footer {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+  }
