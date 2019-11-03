@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Buku Tamu</title>
+    </head>
+    <body>
+        <h1>Tambah data</h1>
+        <form action="prosesTambah.php" method="POST">
+        <b>NRP : </b><input type="text" name="nrp" size="35"
+        maxlength="50"> <br>
+        <b>Nama : </b><input type="text" name="nama" size="35"
+        maxlength="50"> <br>
+        <b>Foto : </b><input type="file" name="filename"><br>
+        <b>Jurusan : </b><select name="jurusan">
+            <option value="Telekomunikasi">Telekomunikasi</option>
+            <option value="Elka">Elka</option>
+            <option value="IT">IT</option>
+            <option value="Elin">Elin</option>
+        </select><br>
+        <input type="submit" value="Simpan">
+        </form>
+    </body>
+</html>
